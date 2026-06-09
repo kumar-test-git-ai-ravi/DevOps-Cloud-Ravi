@@ -88,7 +88,7 @@
    88  #in bigger envirnoment git want to understand which developer make the chanes in which file that why aking please tell me who you are
    89  clear
    90  git config --global user.name "kumar-test-git-ai-ravi"
-   91  git config --global user.email "kumarrsiingh108@gmail.com"
+   91  git config --global user.email ""
    92  git status
    93  git commit -m "first commit"
    94  git log
