@@ -144,4 +144,43 @@ related to v1.0.0 code we can download
 click on source code link it will download in the local? 
 observe what have done ?
 
+commit id not refering to version v1.0.0
+git log --oneline
+means from bottom commit/first commit of this repository upto d1b (HEAD-> main,tag:v1.0.0,origin/main) nareshwar
+ 763285e (HEAD -> main, origin/main, origin/HEAD) 13-june-commit-message >>>> this is not the commit 
 
+today we stop developement
+client is given me requirement 
+
+client hey add featx 
+
+featx   client git deadlines every software  relase featx by 30th july in production
+featy  release by 23rd jul already immediate fixed 
+defect release by 12th jul ,
+do i start 
+do i start after 12th jul now
+how can them in paralle ,need more time start parallel developement
+we do not have branching concept then how do i fixed 
+
+this is plan we have 
+some fixed the defect as well
+
+can i take defect code then we merger .
+
+defect c1,c2,c3,d1,d2
+
+featy c1,c2,c3,f1,f2,f3,f4 >> under development
+
+
+how do we create branch in remote 
+
+we weill create branch remote that is recommened.
+but created branch locally do not recommened
+
+No developer push to main branch 
+it is necessay alway protect main branch need to protect the branch
+
+#git pull origin
+when you do git pull origin after created the remote branch
+if you intiate the branch git switch to branch_name
+git checkout featx
