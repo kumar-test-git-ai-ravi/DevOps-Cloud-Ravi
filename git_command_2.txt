@@ -15,7 +15,7 @@
    15  ls -l /
    16  clear
    17  git config --global user.name "kumar-test-git-ai-ravi"
-   18  git config --global user.email "kumarrsiingh108@gmail.com"
+   18  git config --global user.email ""
    19  git push origin main
    20  https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
    21  cd ..
