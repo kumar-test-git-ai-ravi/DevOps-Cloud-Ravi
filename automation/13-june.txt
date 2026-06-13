@@ -1,0 +1,147 @@
+if you have to contribute/support to my accout ,you have to do fork beause do not have direct access to my account
+as the accound holder i will go the github accound on setting >>acces > under the access > collaborators ? collaborator can directly push in to my accound ?
+add nareshwart as the collaborator  >> pending
+# awaiting nerehswar
+
+in gmail.com @leaddeops has invited 
+
+login as nareshwart 
+passowrd:
+
+let me refresh it
+
+two -factor authentication
+verify 2FA
+enter same code again
+
+click on ivitation he become actual collaborator
+the nareshwart can push directly to opensource project
+Token for it
+here nareshwart is now git clone project007/ here do not required to fork
+
+pwd
+assume that left side actual nareshwar account
+nareshwar@mbpro~% git clone https://github.com.leaddevops/project007.git
+cloing into 'project007'.....
+cd project007
+project007/ git remote -v
+origin https://github.com/leaddeops/project007.git(fetch)
+                                                  (push)
+
+Assume that he making the change
+touch nareshwar.txt
+git add .
+git commit -m "nareshwar-commit"
+ls -l
+git remote -v
+here not pointing to personal account now poiting to leaddevops
+git log --oneline
+
+now push >> git push origin main
+username nareshwart
+i have do have to generate for nareshwar not for leaddevops ok?
+generate the token?
+on top right nareshwar
+paste the token 
+
+pusing the changes for leaddevops there all the cridential
+:wq!
+ here i have to add each individual ,if you add the enterprise for group of people/developer
+
+
+ 
+
+############## Pull Request ##########333
+there is no blocking on github on github there are no control ,you need to go to the enterprise ,in public do not see
+
+
+################# now move to next concept #######################3
+
+if know the branch concept ,in distributed control system 
+? why do we need the branch 
+
+what is branch :
+----------------
+
+                               ---------
+                               |       |
+                               |       |
+                               ---------- 
+
+
+
+without a branch there is no repository
+if i go to the project007/
+ubuntu@vm1:~/project007/git branch
+*main
+
+on dev2 also same
+
+
+on remote branch as well
+
+brach is mandatory thing where it it does not matter 
+
+whenver changes we made c1,c2,c3 delted modified 
+whatever changes we made    refer with commit id
+every commit id is refer to the change
+chnages we made in vcs  main c1,c2,c3 like multiple file created ,deleted ,modified as the changes commit id
+
+dev1
+---
+project007/
+main c1,c2,c3
+
+
+
+
+
+dev2
+----
+project007/
+main c1,c2,c3
+
+
+
+
+
+
+
+
+####################
+
+Note whever we try to developing the software and releasing the version 1.0.0
+
+now i can say version 1.0.0 is n number of commit.
+lets say from commit 1 to commit 100 becomes the single version 1.0.0 for me ? and releasing to the market
+is every commit we do verions? what did you think No right
+every commit is not a version as we do release in the market right ?
+every commit refer to certain changes in the curtain file so like wise we have n commit then by time we finish developing the features particular features we may have n number of commit so technically group of commit ,commit from start upto certain position is alway become the single version?
+so far 10 commit these 10 commit will become a single version for me ? as want to assume release this version? finish development as would like to mark these commit untill the last commit cca18 is my version v1.1.   how i will do that ? this where somthing called in git tag? in pictire?
+
+whenever we release the version actually i will create the release 
+go the tag then create the new release?
+
+need to choose the tag for sure?
+
+if we do have a tag i must create the tag?
+
+
+
+Note from the main branch created the version v1.0.0
+
+then publish the release
+
+if i go to the release page ?
+
+there i see release v1.0.0
+
+below now see there is source code(zip)
+                       source code (tar.gz) 
+
+related to v1.0.0 code we can download
+
+click on source code link it will download in the local? 
+observe what have done ?
+
+
