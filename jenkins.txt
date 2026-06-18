@@ -390,7 +390,7 @@
   390  git add .
   391  git status
   392  git commit -m "upload the jenkins-command"
-  393  git config --global user.email kumarrsiingh108@gmail.com
+  393  git config --global user.email 
   394  git config --global user.name kumar-test-git-ai-ravi
   395  git status
   396  git remote -v
