@@ -1,0 +1,321 @@
+    1  clear
+    2  cd DevOps-Cloud-Ravi
+    3  ls
+    4  mkdir DeveOps-Cloud-Ravi
+    5  cd DeveOps-Cloud-Ravi
+    6  ls
+    7  git init
+    8  ls
+    9  ls ./git
+   10  ls .git/
+   11  ls
+   12  ls -ltrh
+   13  ls -la
+   14  ls /
+   15  ls -l /
+   16  clear
+   17  git config --global user.name "kumar-test-git-ai-ravi"
+   18  git config --global user.email ""
+   19  git push origin main
+   20  https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+   21  cd ..
+   22  rm -f DeveOps-Cloud-Ravi
+   23  rm -r DeveOps-Cloud-Ravi
+   24  ls
+   25  mkdir DevOps-Cloud-Ravi
+   26  cd DevOps-Cloud-Ravi
+   27  ls
+   28  https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+   29  git init
+   30  https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+   31  ls
+   32  ls -la
+   33  mkdir 12-june-26.txt
+   34  ls
+   35  git status
+   36  git add 12-june-26.txt
+   37  git status
+   38  git add .
+   39  git status
+   40  sudo add-apt-repository ppa:git-core/ppa
+   41  sudo apt update
+   42  sudo apt install git
+   43  git --version
+   44  which git
+   45  clear
+   46  git init
+   47  ls
+   48  git add .
+   49  git commit -m "on-12-june-first-commit"
+   50  ls -l /
+   51  rm -rf .git/
+   52  ls
+   53  git add 12-june-26.txt
+   54  git commit -m "first-commit-12-june-26"
+   55  git add .
+   56  git status
+   57  git init
+   58  git status
+   59  git add .
+   60  git commit -m "first-commit-on-12th-june"
+   61  ls
+   62  rm -rf .git/
+   63  ls
+   64  git status
+   65  ls
+   66  rm 12-june-26.txt
+   67  history
+   68  rm -rf 12-june-26.txt
+   69  ls
+   70  rm -rf .git/
+   71  ls
+   72  touch 12-june-26.txt
+   73  vi 12-june-26.txt
+   74  git add .
+   75  git status
+   76  git add .
+   77  git commit -m "first-commit"
+   78  hostname vm1
+   79  sudo hostname vm1
+   80  ls
+   81  git status
+   82  hostname vm
+   83  sudo hostname vm
+   84  cd ..
+   85  sudo hostname vm
+   86  ls
+   87  sudo hostnamectl set-hostname vm
+   88  ls
+   89  hostname
+   90  clear
+   91  ls
+   92  cd DevOps-Cloud-Ravi
+   93  ls
+   94  git init
+   95  git status
+   96  git add .
+   97  ls
+   98  git status
+   99  git commit -m "first-commit-on-12th-june"
+  100  git log
+  101  clone https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+  102  git log
+  103  git status
+  104  git show b04c8c06338184b4836e92295eb30527d3c3013d
+  105  git clone https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+  106  ls
+  107  cd DevOps-Cloud-Ravi
+  108  ls
+  109  clear 
+  110  ls
+  111  rm -rf DevOps-Cloud-Ravi
+  112  ls
+  113  git clone https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+  114  ls
+  115  DevOps-Cloud-Ravi
+  116  cd DevOps-Cloud-Ravi
+  117  ls
+  118  #when i have nothing can i pull is question?
+  119  #i do not have project007 directory can directly do the pull? No right  
+  120  #when perform the git clone i will get means where the command executed on which developer Laptop?
+  121  # when want including the project007 directory including commited file by other developer at that time when whic developer want to git pull origin main[Branch]?
+  122  #if only want to get changes then use the git pull origin main #important only changes ok do not confuse?
+  123  # i can do git pull on any directory how could you do that can not right i am right now in home then 
+  124  cd ..
+  125  git pull
+  126  git pull origin
+  127  git pull origin main
+  128  cd DevOps-Cloud-Ravi
+  129  ls
+  130  #lets do this there are green button above that there are option pin unwatch fork there is option called fork 
+  131  #plesae click on fork you might seeing create a new fork
+  132  #during fork if i uncheck the then copy all but keep for 
+  133  git clone https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+  134  ls
+  135  cd DevOps-Cloud-Ravi
+  136  ls
+  137  clear
+  138  ls
+  139  cd DevOps-Cloud-Ravi
+  140  ls
+  141  git branch
+  142  history
+  143  git remove -v
+  144  git remote -v
+  145  #URL to clone on drop down of code on github[remote server]
+  146  #security is come in advance later
+  147  #best practice used security to clone
+  148  #there are two developer working both developer are pointed to same remote project dev 1 is sharing cridential with dev2 same token its not recommended aproach
+  149  git remote -v
+  150  vi dev2.txt
+  151  ls
+  152  cd DevOps-Cloud-Ravi
+  153  ls
+  154  clear
+  155  cd DevOps-Cloud-Ravi
+  156  ls
+  157  vi 13-june.txt
+  158  git log --oneline
+  159  git pull origin main
+  160  git log --oneline
+  161  ls
+  162  cd Devops-Cloud-Ravi
+  163  cd DevOps-Cloud-Ravi
+  164  ls
+  165  git log
+  166  git pull origin main
+  167  git log
+  168  git log --oneline
+  169  git pull origin main
+  170  git log
+  171  git log --oneline
+  172  git log 
+  173  cd ..
+  174  ls
+  175  cp 13-june.txt ~/DevOps-Cloud-Ravi
+  176  cd DevOps-Cloud-Ravi
+  177  ls
+  178  touch git_concept_release.txt
+  179  ls
+  180  cd ..
+  181  cp 13-june.txt ~/DevOps-Cloud-Ravi/automation
+  182  ls
+  183  cd DevOps-Cloud-Ravi
+  184  ls
+  185  cd automation/
+  186  ls
+  187  cd ..
+  188  git push origin main
+  189  ls
+  190  git add .
+  191  git commit -m "13-june-commit-message"
+  192  git push origin main
+  193  cd DevOps-Cloud-Ravi
+  194  ls
+  195  git add .
+  196  git commit -m "13-june-commit"
+  197  git push origin main
+  198  git pull origin main
+  199  git push origin main
+  200  git add .
+  201  git log
+  202  git log --oneline
+  203  git pull origin main
+  204  git pull --no-rebase
+  205  ls
+  206  git log
+  207  git log --oneline
+  208  cd ..
+  209  rm -rf DevOps-Cloud-Ravi
+  210  l
+  211  git clone https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+  212  ls
+  213  cd DevOps-Cloud-Ravi
+  214  ls
+  215  vi 13-june.txt
+  216  git log
+  217  git log --oneline
+  218  vi 13-june.txt
+  219  git pull origin main
+  220  git log 
+  221  git brach
+  222  git branch
+  223  git pull origin 
+  224  # but does not created branch
+  225  git branch
+  226  #what command should i used to take only changes
+  227  vi 13-june.txt
+  228  git branch
+  229  git switch featx
+  230  git branch 
+  231  #list the branch
+  232  git branch
+  233  #similar dev2 can do that as well dev2 is working on featy branch this is how branch intialted on remote then devloper switch to featy branch
+  234  git branch -a
+  235  #onces you are on the branch vi featx.java
+  236  vi featx.java
+  237  git status
+  238  git add .
+  239  git status
+  240  git cogit commit -m "f1"
+  241  git commit -m "f1"
+  242  git status
+  243  git log --oneline
+  244  git push origin featx
+  245  clear 
+  246  history
+  247  cd DevOps-Cloud-Ravi
+  248  ls
+  249  #what is merge updating the code between any two branches
+  250  #two local branch [git merge]
+  251  #two remote branch [pull request]
+  252  #remote to local [git pull]
+  253  #local to remote[git push]
+  254  #between two accounts/repos on remote[pull request]
+  255  #with in my remote github[between featx and featy]
+  256  #below the code there is contribute >> everything will be the review and commit will lookup
+  257  #before merge the branch we have apprival ,when i want to update the changes between featx and featy ok that will merge within the request raised pull reqeuest ,someting review multiple times?
+  258  #below code there is contributor ,pull request or compare ?
+  259  #this time pull request between base:main <<<<< compare:featx create pull request
+  260  #within the same account main << featx
+  261  #when the pull request again the changes will shown again 
+  262  history
+  263  cd DevOps-Cloud-Ravi
+  264  ls
+  265  #development will keep going 17 open 4 closed
+  266  #rebase and merge
+  267  #now featx is completed now go to the release then make new release v1.1.0 for featx #then draft the new release also create the new tag
+  268  #write Release title release v1.1.0
+  269  #
+  270  #featx release that contain code
+  271  what are changes are done which all the file have done the changes
+  272  # now go to the release page see the source code download the code start deploye the code ?
+  273  # now go to the release page see the source code download the code start deploye the code on production how do we take the code then uplodad the server then qa Engineers will gets work on real time envirnment
+  274  git branch 
+  275  git switch main
+  276  git branch
+  277  git pull origin
+  278  git branch test-branch
+  279  git branch
+  280  git switch -c newbranch 
+  281  #what is difference git branch name_branch_want_to_write
+  282  #git branch
+  283  git branch
+  284  #git switch -c newbranch # it also switch to newbranch that is difference here 
+  285  git switch main
+  286  git branch
+  287  #if want to switch to main then used the git switch name_of_branch
+  288  history git_command_2.txt
+  289  history > git_command_2.txt
+  290  ls
+  291  git add .
+  292  git commit -m "second commit for git_command_2.txt"
+  293  git pull origin
+  294  gir brnach
+  295  git branch
+  296  history
+  297  clear
+  298  cd Devops-Cloud-Ravi
+  299  ls
+  300  cd DevOps-Cloud-Ravi
+  301  ls
+  302  git branch
+  303  clear
+  304  ls
+  305  cd DevOps-Cloud-Ravi
+  306  ls
+  307  git branch
+  308  git switch feature-git
+  309  git pull orgin
+  310  cd ..
+  311  git clone https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+  312  cd DevOps-Cloud-Ravi
+  313  ls
+  314  git branch
+  315  git branch -a
+  316  git switch feature_git
+  317  git branch
+  318  ls
+  319  git push origin feature_git
+  320  git log
+  321  history > git_command_2.txt
