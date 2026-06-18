@@ -1,0 +1,423 @@
+    1  clear
+    2  hostname vm1
+    3  sudo hostname vm
+    4  clear
+    5  ls
+    6  git remote -v
+    7  sudo add-apt-repository ppa:git-core/ppa
+    8  sudo update
+    9  sudo apt update
+   10  sudo apt install git
+   11  git remote
+   12  git clone https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+   13  ls
+   14  cd DevOps-Cloud-Ravi
+   15  ls
+   16  # i have code on git server[source code] how on our laptop how would install take the source code executable format deploymable its simple instable package
+   17  #source code is raw source code on github vcs/scm can not be run on server we need to convert the raw sc into a deplyoble/instable/executable format? how do we convert source code into deployable
+   18  #process of converting source code into deplyoable format is called "build code process"
+   19  #build code process can be done using some build code tools
+   20  #build code tolls are aviable #jenkins is not a build code tools
+   21  #if software is in java-maven/ant/gradle
+   22  #if .net - msbuild
+   23  #if python -pybuild
+   24  #go -- make
+   25  #js - npm
+   26  #what is maven ,maven is build toll its mainly used for java projects
+   27  clear
+   28  history
+   29  #vlc player both will used to paly the movies
+   30  #now i have build tools before i go to that question?
+   31  # build code process is not straight forward it need do package
+   32  #in this laptop there are the small-2 part there are faulty module before do make final product work there are certain step is perfomed usnit testing complile code coverage
+   33  #deployable not basice things tools maven is doing things? there should be human man behind 
+   34  clear
+   35  #i tell the maven ,using the maven tool you compile 1 mvn compile 2 mvn code review 3 mvn unit test 4 mvn code coverage 5 mvn package 
+   36  #maily used for webapplication there are multiple step are there dev are changes the code build code process git clone then run mvn six step
+   37  #how many times we do these step every sprint onces every release
+   38  #i stared the sprint today i have commited n number of commit now stared the code review do have do next sprint why we can not review the code every day ,build code process to identify the issue in early stage of relase in the market
+   39  clear
+   40  #is there are easy to review the code 10 commit instead of 10 commit ? multiple times in single day ? 3 hr package should we done as early stage which is recommened multple time in day if dev1 do the same five times in day ?
+   41  clear
+   42  ls
+   43  #if day 1 is beacuse is interesting things its boring process what i will do if repetative process must the process
+   44  #whow do i will automate the this ? this where we come across the one more tools jenkins 
+   45  #there is tools people developed called jenkins its not same as mavn 
+   46  #jenkins is a toll can help to automate the build code process
+   47  #jenkins is known as build automation server/continuos integration server
+   48  #what command we run it manually instead of running these command we can integrate with jenkins to perform the build code prcoess
+   49  clear
+   50  # we will  asks the jenkins to   >> can jenkins does not known how do code review mvn know how to build code process >> jenkins only automte user mvn do the automation
+   51  #we can schedule the i configure them git pull comamnd on schedule basis i can not trigger jenkins can trigger the on schedule basis for automation process # instead of doing munaully i ask the them to jenkins that help us to aumate the my certain task ,mvn is actually tool to covert source code to make build code process ? jenkins is build automation.
+   52  # first start the mvn 
+   53  git --version
+   54  mvn --version
+   55  java --version
+   56  #in order to work with these tools install the mvn and java tools ok 
+   57  # go to the 
+   58  sudo add-apt-repository ppa:openjdk-r/ppa
+   59  sudo apt update
+   60  sudo add-apt-repository ppa:openjdk-r/ppa
+   61  sudo apt-get update
+   62  sudo apt-secure update
+   63  sudo apt-get install -y fontconfig openjdk-17-jre openjdk-17-jdk
+   64  java --version
+   65  #whenever install the software where does it install c drive
+   66  #in linux there are drive 
+   67  pwd
+   68  ls / # this is c drive already exiting folder
+   69  # there Letter drive name in Linux like windows 
+   70  #whenever we install any sofrware in operating system[like linux] it would we go in one of this directory when executing "ls /"  
+   71  # we can not say alway go in the ops or var ,actually we do not know?
+   72  cd usr/lib
+   73  cd /usr/lib/jvm
+   74  ls
+   75  cd java-17-openjdk-amd64
+   76  ls
+   77  ls -lrt
+   78  pwd
+   79  # this /usr/lib/jvm/java-17-openjdk-amd64 where java software install bydefault
+   80  #after installation always validate and keep in mid where is install
+   81  # cd tmp;sudo wget https://dlcdn.apache.org/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+   82  cd tmp;sudo wget https://dlcdn.apache.org/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+   83  ls /
+   84  cd tmp
+   85  cd /tmp
+   86  ls
+   87  cd ..
+   88  exit
+   89  clear
+   90  history
+   91  ls
+   92  cd DevOps-Cloud-Ravi
+   93  ls
+   94  cd /usr/lib/jvm
+   95  ls
+   96  cd java-17-openjdk-amd64
+   97  ls
+   98  cd /tmp;sudo wget https://dlcdn.apache.org/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+   99  mvn --version
+  100  sudo apt install maven
+  101  maven --version
+  102  sudp apt update
+  103  cd ..
+  104  cd opt
+  105  ls
+  106  sudo apt insall maven
+  107  sudo apt instal maven
+  108  sudo apt-get install maven
+  109  exit
+  110  clear
+  111  ls
+  112  cd DevOps-Cloud-Ravi
+  113  ls
+  114  sudo add-apt-repository ppa:openjdk-r/ppa
+  115  sudo apt-get update
+  116  sudo apt-get install -y fontconfig openjdk-17-jre-openjdk-17-jdk
+  117  sudo apt-get install -y fontconfig openjdk-17-jre openjdk-17-jdk
+  118  history
+  119  cd /usr/lib/jvm/java-17-openjdk-amd64
+  120  ls
+  121  cd /tmp ; sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+  122  sudo apt updae
+  123  sudo apt update
+  124  sudo apt install maven -y
+  125  mvn --version
+  126  wget https://dlcdn.apache.org/maven/maven-3/
+  127  cd /tmp ; sudo tar -xzf apache-maven-3.9.6-bin.tar.gz -C /opt/
+  128  cd ..
+  129  pwd
+  130  cd /
+  131  cd ~
+  132  ls
+  133  cd DevOps-Cloud-Ravi
+  134  ls
+  135  cd /tmp ; sudo tar -xzf apache-maven-3.9.6-bin.tar.gz -C /opt/
+  136  cd ~
+  137  cd DevOps-Cloud-Ravi
+  138  sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz
+  139  sudo tar -xzf apache-maven-3.9.16-bin.tar.gz -C /opt/
+  140  sudo mv /opt/apache-maven-3.9.16 /opt/maven
+  141  echo 'export MAVEN_HOME="/opt/maven"' | sudo tee -a /etc/profile
+  142  echo 'export PATH=$MAVEN_HOME/bin:$PATH' | sudo tee -a /etc/profile
+  143  source /etc/profile
+  144  mvn --version
+  145  cd /opt
+  146  cd maven
+  147  ls
+  148  mvn --version
+  149  #we do not have a jenkins
+  150  #if i want to do the build code process then i want to this samplejava code we need to have code in server local i need to git clone first
+  151  cd ~
+  152  git clone https://github.com/lerndevops/labs.git
+  153  ls
+  154  cd labs
+  155  ls
+  156  cd 00-cloud
+  157  ls
+  158  cd aws
+  159  ls
+  160  cd ~
+  161  git clone https://github.com/lerndevops/samplejavaapp.git
+  162  ls
+  163  cd samplejavaapp/
+  164  ls
+  165  cd src
+  166  ls
+  167  ls -lrt
+  168  ls -l
+  169  cd main
+  170  ls
+  171  cd java
+  172  l
+  173  ls
+  174  cd com
+  175  ls
+  176  cd devopsdemo/
+  177  ls
+  178  cd utilities/
+  179  ls
+  180  ls -lrt
+  181  git pull
+  182  cd ..//
+  183  cd ..
+  184  #now i need to convert source code into package 
+  185  mvn package
+  186  ls
+  187  ls -lrt
+  188  #as devops engineer if successfull good if some error then go the devloper to error 
+  189  cd target/
+  190  ls
+  191  ls -lrt
+  192  free -h
+  193  free 
+  194  mvn compile
+  195  cd ..
+  196  mvn compile
+  197  ls
+  198  ls -l
+  199  clear
+  200  history
+  201  ls -lrt
+  202  git pull origin feature_git
+  203  git init
+  204  git add .
+  205  git commit -m "lab-sameplejava-commit"
+  206  ls -lrt
+  207  cd labs
+  208  ls
+  209  cd 00-cloud
+  210  ls
+  211  cd aws
+  212  ls
+  213  clear
+  214  cd 00-cloud
+  215  ls
+  216  cd labs
+  217  ls
+  218  cd 00-cloud
+  219  ls
+  220  cd aws
+  221  ls
+  222  xdg-open AWS-DevOps.pdf
+  223  sudo apt install xdg-utils
+  224  xdg-open AWS-DevOps.pdf
+  225  xdg-open 'AWS-DevOps.pdf'
+  226  ls
+  227  xdg-open AWS-DevOps.pdf
+  228  echo $DISPLAy
+  229  clear
+  230  mvn validate
+  231  mvn test
+  232  mvn compile
+  233  mvn package
+  234  ls -lrt
+  235  #take the same war file and run on the server
+  236  build life-cycle predefined the ordered
+  237  #validate compile test package install deploy
+  238  #directory structure for a java project auto-generated by maven
+  239  cd DevOps-Cloud-Ravi
+  240  ls
+  241  mkdir project_home
+  242  cd project_home
+  243  ls
+  244  mkdir src
+  245  cd src
+  246  mkdir main
+  247  cd main
+  248  mkdir java
+  249  mkdir resources
+  250  ls
+  251  cd ..
+  252  ls
+  253  mkdir test
+  254  cd test
+  255  mkdir java
+  256  mkdir resources
+  257  ls
+  258  cd ..//
+  259  cd ..
+  260  mkdir target
+  261  mkdir pom.xml
+  262  ls
+  263  cd ..
+  264  ls
+  265  git add .
+  266  git commit -m "for-maven-commit"
+  267  git push origin feature_git
+  268  git init 
+  269  git log
+  270  git add .
+  271  git commit -m "june-14-maven-commit"
+  272  git pull
+  273  git pull origin
+  274  git push origin main
+  275  ls
+  276  clear
+  277  ls
+  278  cd DevOps-Cloud-Ravi
+  279  ls
+  280  git --version
+  281  cd ~
+  282  sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
+  283  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/" | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+  284  sudo apt update
+  285  sudo apt-get update
+  286  sudo apt-get install jenkins
+  287  #unlike GUI cli #jenkins is webwrober web based 
+  288  ls /
+  289  cd /var/lib/jenkins/
+  290  ls
+  291  cd ~
+  292  systemctl status jenkins.service 
+  293  java -version
+  294  sudo ss -tulnp | grep 8080
+  295  sudo journalctl -u jenkins -n 50 --no-pager
+  296  sudo systemctl status jenkins -l
+  297  clear 
+  298  #jenkins in backend how will configure as devops enginerr where jenkins generate the data where we can trobleshoot
+  299  #Build steps
+  300  #Genenal Description 
+  301  #onces the a.war file is generate 
+  302  #give shell command ls pwd absoluet_path
+  303  #workspace in jenkins each job hanlde.
+  304  #create job for validation compile unit test code coverage mvn package
+  305  whenver we give/assign to the new job to jenkins go to the New Item [click]
+  306  #whenver we give/assign to the new job to jenkins go to the New Item [click]
+  307  #for every job provide git repository https://gihthub.com/                          some name to it configure git,get url if need provided cridential then select he branch ? while we need to run compile to make 24 port to 48 port convert to binary? the code is written by high level languae what computer understand ,machine ustand the binary code ,wheater we will able to create the binary or not it can i ran on server ? thats why we are running on server?
+  308  #save it build now then check the output if find the error then inform the developer?
+  309  #how i can share to this successfully/faiiled or i asked the jenkins to send the email notification you peronally i send the email please see this is error
+  310  #inform the devloper most of time if not aware of the developement? unders post-build actions confiigured email the server configured project recepient abc@gmail.com
+  311  #Distribution list 100 developer ,whenver you send it send to all 100 developer?
+  312  #jenkins 2.452.3
+  313  clear
+  314  history 
+  315  ls
+  316  cd DevOps-Cloud-Ravi
+  317  history > jenkins-1.txt
+  318  ls
+  319  git add .
+  320  git log
+  321  git commit -m "jenkins-command day-1"
+  322  git remote -v
+  323  git branch 
+  324  git pull origin main
+  325  git push origin main
+  326  ls
+  327  git log 
+  328  git log --oneline
+  329  git init
+  330  git add .
+  331  git log 
+  332  git log --oneline
+  333  cd ..
+  334  git clone https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+  335  ls
+  336  cd DevOps-Cloud-Ravi/
+  337  ls
+  338  git clone https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+  339  git push origin main
+  340  git switch featx
+  341  git branch
+  342  git push origin
+  343  git push origin featx
+  344  git log
+  345  git add .
+  346  ls
+  347  vi jenkins-1.txt 
+  348  git add .
+  349  ls -l
+  350  git add .
+  351  git log
+  352  vi jenkins-1.txt 
+  353  git add .
+  354  git log
+  355  git commit -m "jenkins-command"
+  356  git remote -v
+  357  git inti
+  358  git init
+  359  ls .git/
+  360  ls -l
+  361  cd DevOps-Cloud-Ravi/
+  362  ls
+  363  history > jenkins.txt
+  364  git remote -v
+  365  git add .
+  366  git log
+  367  git log --oneline
+  368  git --version
+  369  git add .
+  370  git commit -m "jenkins-command"
+  371  cd ..
+  372  ls
+  373  git remove -v
+  374  git remote -v
+  375  git config --gloabal user.name "kumar-test-git-ai-ravi"
+  376  sudo git config --gloabal user.name "kumar-test-git-ai-ravi"
+  377  clear
+  378  history
+  379  ls
+  380  cd DevOps-Cloud-Ravi
+  381  ls
+  382  git branch 
+  383  git push origin featx
+  384  ls
+  385  ls -l
+  386  git origin pull
+  387  git pull
+  388  git log
+  389  git status
+  390  git add .
+  391  git status
+  392  git commit -m "upload the jenkins-command"
+  393  git config --global user.email kumarrsiingh108@gmail.com
+  394  git config --global user.name kumar-test-git-ai-ravi
+  395  git status
+  396  git remote -v
+  397  git push origin featx
+  398  git clone https://github.com/kumar-test-git-ai-ravi/DevOps-Cloud-Ravi.git
+  399  ls
+  400  cd DevOps-Cloud-Ravi
+  401  ls
+  402  git push origin featx
+  403  git push origin
+  404  git push
+  405  git remot -v
+  406  git remote -v
+  407  git log --oneline
+  408  git log --oneline -5
+  409  git status
+  410  git commit -m "jenkins-file"
+  411  git status
+  412  git log
+  413  git log --oneline
+  414  git branch 
+  415  git switch featx
+  416  git branch
+  417  git push origin featx
+  418  git pull
+  419  git push origin featx
+  420  git status
+  421  git ls
+  422  ls -l
+  423  history > jenkins.txt
