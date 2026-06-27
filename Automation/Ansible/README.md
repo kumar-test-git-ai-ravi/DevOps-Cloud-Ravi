@@ -16,12 +16,12 @@ used for application deployment
 it is agentless 
 Uses SSH to connect to remote machine
 Execute tasks defined in playbooks
-## Key componects
-Control Node: Machine where Ansible is installed
-Managed Nodes: Target machine
-Inventory:List of servers
-Playbook: YAML files with task
-Modules: in-build function for tasks
+## Key component
+- Control Node: Machine where Ansible is installed
+- Managed Nodes: Target machine
+- Inventory:List of servers
+- Playbook: YAML files with task
+- Modules: in-build function for tasks
 ## Language used
 YAML: for playbooks
 ## Advantages
