@@ -21,14 +21,14 @@ After switching ,all commands are executed with root privileges.
 The root user is the linux superuser and can access almost all files and directories on the system.
 A normal user can access only the files and directories for which permission has been granted.
 
-ubuntu@ansible-controller:/home$ whoami
-ubuntu
-ubuntu@ansible-controller:/home$ sudo -i
-root@ansible-controller:~# cd /home/devops
-root@ansible-controller:/home/devops# ls
-my_playbook.yaml ansible.cfg qainv setup_user.py hosts roles
-root@ansible-controller:/home/devops# whoami
-root
-root@ansible-controller:/home/devops#
+- ubuntu@ansible-controller:/home$ whoami
+- ubuntu
+- ubuntu@ansible-controller:/home$ sudo -i
+- root@ansible-controller:~# cd /home/devops
+- root@ansible-controller:/home/devops# ls
+- my_playbook.yaml ansible.cfg qainv setup_user.py hosts roles
+- root@ansible-controller:/home/devops# whoami
+- root
+- root@ansible-controller:/home/devops#
 
 
