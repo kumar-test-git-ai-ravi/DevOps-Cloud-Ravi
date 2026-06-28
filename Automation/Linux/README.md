@@ -30,5 +30,19 @@ A normal user can access only the files and directories for which permission has
 - root@ansible-controller:/home/devops# whoami
 - root
 - root@ansible-controller:/home/devops#
+## 
+# Run a command as the user "deployer" instead of root
+sudo -u deployer whoami
+# → output: deployer
+
+# Open a shell as another user (useful for testing their environment)
+sudo -u deployer -i
+# -i = "login shell", loads that user's .bashrc, sets $HOME, etc.
+
+# Run a single command as another user, then come back to yourself
+sudo -u deployer ls -la /home/deployer
+
+# Switch to root specifically (same as plain sudo, just explicit)
+sudo -u root systemctl restart isc-dhcp-server
 
 
